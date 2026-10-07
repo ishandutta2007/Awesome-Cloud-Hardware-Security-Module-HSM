@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#d946ef" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Dynamic Background Elements (Pulse / Flow) -->
+  <!-- Floating Glowing Orbs -->
+  <circle cx="150" cy="80" r="120" fill="url(#purpleGrad)">
+    <animate attributeName="cy" values="80;100;80" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1050" cy="220" r="140" fill="url(#purpleGrad)">
+    <animate attributeName="cy" values="220;190;220" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Animated Grid / Wave Lines -->
+  <path d="M-100 220 Q 300 120 600 220 T 1300 180" fill="none" stroke="url(#cyanGrad)" stroke-width="2" opacity="0.3">
+    <animate attributeName="d" values="M-100 220 Q 300 120 600 220 T 1300 180; M-100 180 Q 300 240 600 180 T 1300 220; M-100 220 Q 300 120 600 220 T 1300 180" dur="12s" repeatCount="indefinite" />
+  </path>
+  <path d="M-100 250 Q 300 280 600 200 T 1300 260" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.25">
+    <animate attributeName="d" values="M-100 250 Q 300 280 600 200 T 1300 260; M-100 210 Q 300 170 600 240 T 1300 200; M-100 250 Q 300 280 600 200 T 1300 260" dur="9s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Dynamic Security Lock Graphic (Left Side) -->
+  <g transform="translate(100, 90)">
+    <rect x="0" y="40" width="70" height="60" rx="8" fill="#1e293b" stroke="#06b6d4" stroke-width="3" filter="url(#glow)" />
+    <path d="M 15 40 V 22 A 20 20 0 0 1 55 22 V 40" fill="none" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" />
+    <circle cx="35" cy="65" r="6" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <path d="M 35 71 V 82" stroke="#38bdf8" stroke-width="3" />
+  </g>
+
+  <!-- Dynamic Cloud Graphic (Right Side) -->
+  <g transform="translate(1010, 95)" opacity="0.85">
+    <path d="M 20 50 A 25 25 0 0 1 65 30 A 35 35 0 0 1 125 45 A 25 25 0 0 1 120 85 H 20 A 20 20 0 0 1 20 50 Z" fill="#1e293b" stroke="#8b5cf6" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="stroke" values="#8b5cf6;#06b6d4;#8b5cf6" dur="6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- FOREGROUND TEXT (Clear, Sharp, Always Visible) -->
+  <!-- Title -->
+  <text x="600" y="115" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="40" fill="#ffffff" letter-spacing="1">
+    Awesome Cloud HSM 🔐 🏛️
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="165" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="20" fill="#cbd5e1" letter-spacing="0.5">
+    Hardware Security Modules • Cloud Key Management • PKCS#11 • Post-Quantum Security
+  </text>
+
+  <!-- Animated Feature Badges (Foreground Bottom) -->
+  <g transform="translate(600, 220)">
+    <!-- Badge 1 -->
+    <g transform="translate(-240, 0)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="0" y="5" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="14" fill="#38bdf8">☁️ Cloud HSM</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(0, 0)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+      <text x="0" y="5" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="14" fill="#c084fc">🗝️ PKCS#11</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(240, 0)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#1e293b" stroke="#34d399" stroke-width="1.5" />
+      <text x="0" y="5" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="14" fill="#34d399">🛡️ PQC Ready</text>
+    </g>
+  </g>
+</svg>

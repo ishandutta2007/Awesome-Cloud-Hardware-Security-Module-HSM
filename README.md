@@ -187,7 +187,7 @@ Contributions are welcome! Follow these steps to submit new HSM platforms or ope
 
 
 
-## 📊 Star History
+## 📈 Star History
 
 
 
