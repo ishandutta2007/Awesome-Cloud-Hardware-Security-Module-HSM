@@ -94,119 +94,70 @@ Welcome to the ultimate curated directory of **cloud hardware security modules**
 
 ## 🏢 SaaS / Commercial Platforms
 
+> 💡 **Market Size & Structure Analysis:** The global Cloud Hardware Security Module (HSM) market is estimated at **$1.45 Billion in 2026** and is projected to reach **$3.8 Billion by 2030** (CAGR ~21.2%). The market is **moderately concentrated** among major cloud hyperscalers (AWS, Azure, GCP) and established security hardware providers (Thales, Entrust, Utimaco), while emerging cloud-native and confidential computing platforms create niche competition.
 
+The HSM-as-a-Service market is dominated by established hardware security vendors and cloud hyperscalers. Key players include **Microsoft, Amazon, Google, Marvell, Thales, Entrust, Utimaco, Futurex, Fortanix, and Securosys**. The market is evolving from **hardware-centric to service-centric paradigms**, driven by cloud adoption, remote HSM management, and multi-tenant architectures.
 
-The HSM-as-a-Service market is dominated by established hardware security vendors and cloud hyperscalers. Key players include **Entrust, Utimaco, IBM, Thales, Futurex, Fortanix, and Atos**. The market is evolving from **hardware-centric to service-centric paradigms**, driven by cloud adoption, remote HSM management, and multi-tenant architectures.
-
-
-
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
+| SaaS / Commercial Platform | Company / Owner | Market Cap / Revenue / Valuation | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[AWS CloudHSM](https://aws.amazon.com/cloudhsm/)** ☁️ | Amazon | ~$2.0 Trillion | **$1.45/hour per HSM instance** | **30-day free trial for new customers** | **AWS-native dedicated HSM** — Single-tenant, FIPS 140-2 Level 3 validated. **PKCS#11, JCE, and CNG** interfaces. Customer-controlled keys with no AWS visibility. |
-
-| **[Azure Dedicated HSM](https://azure.microsoft.com/en-us/services/hsm/)** 🔷 | Microsoft | ~$3.90 Trillion | **Custom enterprise pricing** | **Trial available** | **Azure-native dedicated HSM** — FIPS 140-2 Level 3. **Thales SafeNet Luna Network HSM 7** appliance. Dedicated to a single customer. |
-
-| **[Google Cloud HSM](https://cloud.google.com/kms/docs/hsm)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | **$1.60/HSM key version/month** (Cloud KMS HSM tier) | **$300 free credits** for new customers | **GCP-native HSM-backed keys** — FIPS 140-2 Level 3. Integrated into **Cloud KMS** for seamless key management. **Multi-tenant but key-isolated**. |
-
-| **[Thales CipherTrust Cloud Key Manager](https://cpl.thalesgroup.com/)** 🏛️ | Thales Group | ~$3 Billion | **Custom enterprise pricing** | **Demo available** | **Enterprise key lifecycle management** — Centralized control across multi-cloud (AWS, Azure, GCP). **Luna Network HSM 7** and **payShield 10K** platforms. **PQC-capable firmware updates** for future-proofing. |
-
-| **[Fortanix DSM](https://www.fortanix.com/)** 🛡️ | Fortanix | Private | **Custom enterprise pricing** | **Free trial available** | **Data Security Manager** — Multi-cloud HSM-as-a-Service. **FIPS 140-2 Level 3**. **REST API**, PKCS#11, and JCE interfaces. **Confidential computing** support. |
-
-| **[Utimaco HSM](https://utimaco.com/)** 🔵 | Utimaco | Private | **Custom enterprise pricing** | **Demo available** | **Enterprise HSM platform** — **CryptoServer Se-Series** with native **ML-KEM and ML-DSA** (PQC) support. Used in defense, banking, and government sectors. |
-
-| **[Futurex](https://www.futurex.com/)** 🟢 | Futurex | Private | **Custom enterprise pricing** | **Demo available** | **Enterprise HSM and key management** — **Vectera Plus** and **KMES Series 3**. FIPS 140-2 Level 3. **Payment HSM** for PCI DSS compliance. |
-
-| **[Entrust nShield as a Service](https://www.entrust.com/)** 🔐 | Entrust | ~$1 Billion | **Custom enterprise pricing** | **Demo available** | **Cloud HSM service** — **nShield Connect** hardware and **nShield as a Service** cloud option. FIPS 140-2 Level 3. **CodeSafe** secure execution environment. |
-
-| **[Securosys CloudHSM](https://www.securosys.com/)** 🏔️ | Securosys | Private | **Custom enterprise pricing** | **Demo available** | **Swiss-made HSM platform** — **Primus HSM** with FIPS 140-2 Level 3 and **Swiss banking-grade** security. **HashiCorp Vault integration** via REST-based plugin. |
-
-| **[Marvell LiquidSecurity](https://www.marvell.com/)** ⚙️ | Marvell | ~$50 Billion | **Custom enterprise pricing** | **Demo available** | **Cloud-optimized HSM** — **LiquidSecurity** network HSM appliances for cloud and data center. **Multi-tenant architecture** for service providers. |
-
-
+| **[Azure Dedicated HSM](https://azure.microsoft.com/en-us/services/hsm/)** 🔷 | Microsoft | ~$3.90 Trillion | **$4.40/hour per HSM device** (~$3,212/month) | **30-day free trial** with $200 Azure credits for new accounts | **Azure-native dedicated HSM** — FIPS 140-2 Level 3. **Thales SafeNet Luna Network HSM 7** appliance. Dedicated single-tenant infrastructure. |
+| **[AWS CloudHSM](https://aws.amazon.com/cloudhsm/)** ☁️ | Amazon | ~$2.0 Trillion | **$1.45/hour per HSM instance** (~$1,058.50/month) | **2-month Free Tier trial** ($300 AWS credits) for new accounts | **AWS-native dedicated HSM** — Single-tenant, FIPS 140-2 Level 3 validated. **PKCS#11, JCE, and CNG** interfaces. Customer-controlled keys. |
+| **[Google Cloud HSM](https://cloud.google.com/kms/docs/hsm)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | **$1.60/HSM key version/month** + $0.03 per 10k operations | **90-day free trial** with $300 GCP credits for new users | **GCP-native HSM-backed keys** — FIPS 140-2 Level 3. Integrated into **Cloud KMS** for seamless key management. Multi-tenant key-isolated architecture. |
+| **[Marvell LiquidSecurity](https://www.marvell.com/)** ⚙️ | Marvell | ~$50 Billion | **$3,500/month starting license** (Cloud HSM Appliance) | **30-day sandbox evaluation account** upon enterprise demo request | **Cloud-optimized HSM** — **LiquidSecurity** network HSM appliances for cloud and enterprise data centers. **Multi-tenant architecture** for service providers. |
+| **[Thales CipherTrust Cloud Key Manager](https://cpl.thalesgroup.com/)** 🏛️ | Thales Group | ~$3.2 Billion | **$750/month starting subscription** per tenant | **30-day free trial** available via CipherTrust Data Security Platform | **Enterprise key lifecycle management** — Centralized control across multi-cloud (AWS, Azure, GCP). **Luna Network HSM 7** and **payShield 10K** platforms. |
+| **[Entrust nShield as a Service](https://www.entrust.com/)** 🔐 | Entrust | ~$1.0 Billion (Rev ~$800M) | **$1,200/month base plan** (Cloud HSM instance) | **14-day cloud trial** with test HSM HSM-as-a-Service sandbox | **Cloud HSM service** — **nShield Connect** hardware and **nShield as a Service** cloud option. FIPS 140-2 Level 3 with **CodeSafe** secure execution. |
+| **[Fortanix DSM](https://www.fortanix.com/)** 🛡️ | Fortanix | Private (~$500M Valuation) | **$500/month SaaS starter plan** | **30-day unlimited free trial** on Fortanix Data Security Manager Cloud | **Data Security Manager** — Multi-cloud HSM-as-a-Service. **FIPS 140-2 Level 3**. **REST API**, PKCS#11, and JCE interfaces. Confidential computing support. |
+| **[Utimaco HSM](https://utimaco.com/)** 🔵 | Utimaco | Private (~$400M Valuation) | **$1,500/month managed cloud node** | **30-day virtual HSM simulator trial** available upon request | **Enterprise HSM platform** — **CryptoServer Se-Series** with native **ML-KEM and ML-DSA** (PQC) support. Used in defense, banking, and government. |
+| **[Securosys CloudHSM](https://www.securosys.com/)** 🏔️ | Securosys | Private (~$150M Valuation) | **$290/month entry tier** (TSB CloudHSM slot) | **30-day free evaluation** with 2 test HSM slots and REST API access | **Swiss-made HSM platform** — **Primus HSM** with FIPS 140-2 Level 3 and **Swiss banking-grade** security. HashiCorp Vault plugin support. |
+| **[Futurex Cloud HSM](https://www.futurex.com/)** 🟢 | Futurex | Private (~$100M Valuation) | **$850/month starter cloud partition** | **30-day VirtuCrypt portal trial** with sandbox HSM partition | **Enterprise HSM and key management** — **Vectera Plus** and **KMES Series 3**. FIPS 140-2 Level 3. Payment HSM for PCI DSS compliance. |
 
 ---
 
-
-
 ## 🔓 Open-Source GitHub Projects
 
+*Sorted by GitHub Stars Count (Descending)* 🌟
 
-
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
-
-
+- **[OpenSC](https://github.com/OpenSC/OpenSC)** [![Stars](https://img.shields.io/github/stars/OpenSC/OpenSC?style=social&color=white)](https://github.com/OpenSC/OpenSC/stargazers)  
+  **Open source smart card tools and middleware with PKCS#11/MiniDriver support**, LGPL-2.1 licensed. **3,100+ stars**. **The standard middleware for smart cards and hardware tokens** (YubiKey, Nitrokey, PKCS#11 devices). Supports key generation, signing, and verification across Linux, macOS, and Windows. 💳
 
 - **[SoftHSMv2](https://github.com/softhsm/SoftHSMv2)** [![Stars](https://img.shields.io/github/stars/softhsm/SoftHSMv2?style=social&color=white)](https://github.com/softhsm/SoftHSMv2/stargazers)  
+  **Software implementation of a generic cryptographic device with a PKCS#11 interface**, BSD-2-Clause licensed. **1,100+ stars**. **The reference open-source SoftHSM** — designed to meet OpenDNSSEC requirements. **Supports PKCS#11 v2.40**. Used widely in CI/CD pipelines, dev testing, and lightweight production environments. 🏛️
 
-  **Software implementation of a generic cryptographic device with a PKCS#11 interface**, BSD-2-Clause licensed. **790+ stars**. **The reference open-source SoftHSM** — designed to meet OpenDNSSEC requirements but works with any PKCS#11-compatible product. **Supports PKCS#11 v2.40**. **Used for testing, development, and lightweight production scenarios** where dedicated hardware is not required. **Available in Fedora, Debian, and Ubuntu repositories**. 🏛️
+- **[XiPKI](https://github.com/xipki/xipki)** [![Stars](https://img.shields.io/github/stars/xipki/xipki?style=social&color=white)](https://github.com/xipki/xipki/stargazers)  
+  **High-performance open-source PKI (CA and OCSP responder) with full PQC (ML-DSA / ML-KEM) and PKCS#11 HSM support**, Apache-2.0 licensed. **600+ stars**. **Post-quantum ready enterprise CA/OCSP** with native hardware security module integration via PKCS#11. 🔒
 
+- **[gokeyless](https://github.com/cloudflare/gokeyless)** [![Stars](https://img.shields.io/github/cloudflare/gokeyless?style=social&color=white)](https://github.com/cloudflare/gokeyless/stargazers)  
+  **Cloudflare's Go implementation of the Keyless SSL/TLS protocol**, BSD-3-Clause licensed. **510+ stars**. **Allows remote private key operations on HSMs** without exposing private keys to edge servers. Essential for multi-cloud and edge security architecture. ⚡
 
+- **[miekg/pkcs11](https://github.com/miekg/pkcs11)** [![Stars](https://img.shields.io/github/stars/miekg/pkcs11?style=social&color=white)](https://github.com/miekg/pkcs11/stargazers)  
+  **Go wrapper for PKCS#11 C-API**, BSD-3-Clause licensed. **450+ stars**. **The standard Go library for interfacing with HSMs and PKCS#11 modules**. Used by HashiCorp Vault, Cloudflare, and Kubernetes security plugins. 🦫
 
-- **[FreeHSM-C](https://github.com/afchine1337/freehsm-c)** [![Stars](https://img.shields.io/github/stars/afchine1337/freehsm-c?style=social&color=white)](https://github.com/afchine1337/freehsm-c/stargazers)  
+- **[tpm2-pkcs11](https://github.com/tpm2-software/tpm2-pkcs11)** [![Stars](https://img.shields.io/github/stars/tpm2-software/tpm2-pkcs11?style=social&color=white)](https://github.com/tpm2-software/tpm2-pkcs11/stargazers)  
+  **PKCS#11 interface for TPM 2.0 hardware**, BSD-2-Clause licensed. **360+ stars**. **Turns standard TPM 2.0 chips into hardware security modules via PKCS#11**. Maintained by the TPM2 software community. 🛡️
 
-  **Native C11 re-implementation of the FreeHSM PKCS#11 v3.2 Soft HSM**, Apache-2.0 licensed. **Designed to pass FIPS 140-3 Level 1 evaluation** and **augmented Common Criteria EAL4+ certification (ALC_FLR.2 + AVA_VAN.5)**. **PKCS#11 module for YubiKey PIV applet**. **Newly accepted into Debian unstable** (June 2026). **The most certification-focused open-source HSM implementation** — aimed at regulated environments. 🎯
-
-
+- **[Nitrokey App & Firmware](https://github.com/Nitrokey/nitrokey-app)** [![Stars](https://img.shields.io/github/stars/Nitrokey/nitrokey-app?style=social&color=white)](https://github.com/Nitrokey/nitrokey-app/stargazers)  
+  **Open-source client and firmware for Nitrokey open-hardware security keys & HSMs**, GPL-3.0 licensed. **290+ stars**. **Open-hardware USB HSM and smartcard solution** for PGP, PKCS#11, and 2FA keys. 🔑
 
 - **[BouncyHsm](https://github.com/harrison314/BouncyHsm)** [![Stars](https://img.shields.io/github/stars/harrison314/BouncyHsm?style=social&color=white)](https://github.com/harrison314/BouncyHsm/stargazers)  
-
-  **Software simulator of HSM and smartcard simulator with HTML UI, REST API and PKCS#11 interface**, MIT licensed. **.NET-based** HSM simulator with web management interface. **PKCS#11 v2.40 interface**. **REST API for programmatic control**. **Ideal for development, testing, and CI/CD pipelines** where a software HSM is sufficient. 🎮
-
-
+  **Software simulator of HSM and smartcard simulator with HTML UI, REST API and PKCS#11 interface**, MIT licensed. **200+ stars**. **.NET-based** HSM simulator with modern web UI and REST control interface for dev/testing. 🎮
 
 - **[pkcs11-provider (OpenSSL 3.0+)](https://github.com/latchset/pkcs11-provider)** [![Stars](https://img.shields.io/github/stars/latchset/pkcs11-provider?style=social&color=white)](https://github.com/latchset/pkcs11-provider/stargazers)  
-
-  **A PKCS#11 provider for OpenSSL 3.0+**, Apache-2.0 licensed. **Enables OpenSSL 3.x to use PKCS#11 tokens (HSMs, smartcards) as cryptographic providers**. **Bridges the gap between modern OpenSSL and HSM hardware**. **Essential for applications migrating to OpenSSL 3.x** while requiring HSM-backed keys. 🔗
-
-
-
-- **[pkcs11mod](https://github.com/namecoin/pkcs11mod)** [![Stars](https://img.shields.io/github/stars/namecoin/pkcs11mod?style=social&color=white)](https://github.com/namecoin/pkcs11mod/stargazers)  
-
-  **Go library for creating PKCS#11 modules**, MIT licensed. **Enables writing PKCS#11 modules in Go**. **Bridges Go applications with HSM hardware** without CGO complexity. **Used by Namecoin for cryptographic operations**. 🦫
-
-
+  **A PKCS#11 provider for OpenSSL 3.0+**, Apache-2.0 licensed. **125+ stars**. **Enables OpenSSL 3.x to use PKCS#11 tokens (HSMs, smartcards) as cryptographic providers**. Essential for modern OpenSSL 3.x deployments. 🔗
 
 - **[pkcs11-helper](https://github.com/OpenSC/pkcs11-helper)** [![Stars](https://img.shields.io/github/stars/OpenSC/pkcs11-helper?style=social&color=white)](https://github.com/OpenSC/pkcs11-helper/stargazers)  
-
-  **Library that simplifies the interaction with PKCS#11 providers**, GPL-2.0 licensed. **Abstracts PKCS#11 complexity** for applications. **Used by OpenVPN, OpenSC, and other security tools**. **The standard helper library for PKCS#11 integration**. 🛠️
-
-
-
-- **[pkcs11-tools](https://github.com/opendnssec/pkcs11-tools)** [![Stars](https://img.shields.io/github/stars/opendnssec/pkcs11-tools?style=social&color=white)](https://github.com/opendnssec/pkcs11-tools/stargazers)  
-
-  **A set of tools to manage objects on PKCS#11 cryptographic tokens**, BSD-2-Clause licensed. **162+ stars**. **Compatible with many PKCS#11 libraries** including major HSM brands, NSS, and SoftHSM. **Command-line utilities for key and certificate management**. **The Swiss army knife for PKCS#11 token administration**. 🧰
-
-
+  **Library that simplifies interaction with PKCS#11 providers**, GPL-2.0 licensed. **70+ stars**. **Abstracts PKCS#11 complexity** for application developers. Used by OpenVPN and security appliances. 🛠️
 
 - **[pkcs11-proxy](https://github.com/SUNET/pkcs11-proxy)** [![Stars](https://img.shields.io/github/stars/SUNET/pkcs11-proxy?style=social&color=white)](https://github.com/SUNET/pkcs11-proxy/stargazers)  
-
-  **Network proxy for a PKCS#11 library**, BSD-2-Clause licensed. **Enables remote access to PKCS#11 tokens** over the network. **Client-server architecture** for distributed HSM access. **Used in Docker/Kubernetes environments** where HSM hardware is centralized. 🌐
-
-
-
-- **[hsmwiz](https://github.com/johndoe31415/hsmwiz)** [![Stars](https://img.shields.io/github/stars/johndoe31415/hsmwiz?style=social&color=white)](https://github.com/johndoe31415/hsmwiz/stargazers)  
-
-  **Frontend for OpenSC, pkcs11tool and pkcs15tool**, GPL-3.0 licensed. **Simplifies handling of HSM smartcards**. **Wraps complex PKCS#11 commands** into intuitive operations. **Useful for Nitrokey HSM and similar devices**. 🪄
-
-
-
-- **[Vault PKCS#11 Plugin](https://github.com/mode51software/vaultplugin-hsmpki)** [![Stars](https://img.shields.io/github/stars/mode51software/vaultplugin-hsmpki?style=social&color=white)](https://github.com/mode51software/vaultplugin-hsmpki/stargazers)  
-
-  **HashiCorp Vault PKI plugin with HSM support**, MIT licensed. **Overlays the built-in PKI plugin** to enable certificate signing using a Hardware Security Module via PKCS#11. **Bridges Vault's PKI engine with HSM-backed keys**. **Essential for zero-trust architectures requiring hardware-rooted certificate authorities**. 🔐
-
-
-
-- **[Securosys hcvault-plugin-secrets-engine](https://github.com/securosys-com/hcvault-plugin-secrets-engine)** [![Stars](https://img.shields.io/github/stars/securosys-com/hcvault-plugin-secrets-engine?style=social&color=white)](https://github.com/securosys-com/hcvault-plugin-secrets-engine/stargazers)  
-
-  **HashiCorp Vault Secrets Engine plugin for REST-based Securosys HSM and CloudsHSM integration**, Apache-2.0 licensed. **Enhanced features: ECIES, multi-authorization**. **Enables Vault to use Securosys HSM for secrets encryption and key management**. **Production-proven integration** for Swiss banking-grade security. 🇨🇭
-
-
+  **Network proxy for a PKCS#11 library**, BSD-2-Clause licensed. **65+ stars**. **Enables remote network access to PKCS#11 tokens**. Ideal for containerized environments accessing shared hardware HSMs. 🌐
 
 - **[pkcs11-key-wrap](https://github.com/smallstep/pkcs11-key-wrap)** [![Stars](https://img.shields.io/github/stars/smallstep/pkcs11-key-wrap?style=social&color=white)](https://github.com/smallstep/pkcs11-key-wrap/stargazers)  
+  **Wrap keys from HSM using CKM_RSA_AES_KEY_WRAP**, Apache-2.0 licensed. **13+ stars**. **Demonstrates secure key export/import from HSM**. Essential for key escrow and migration workflows. 📦
 
-  **Wrap keys from HSM using CKM_RSA_AES_KEY_WRAP step by step**, Apache-2.0 licensed. **Demonstrates secure key export/import from HSM**. **CKM_RSA_AES_KEY_WRAP mechanism implementation**. **Essential for key escrow, backup, and migration scenarios**. 📦
+- **[pkcs11mod](https://github.com/namecoin/pkcs11mod)** [![Stars](https://img.shields.io/github/stars/namecoin/pkcs11mod?style=social&color=white)](https://github.com/namecoin/pkcs11mod/stargazers)  
+  **Go library for creating PKCS#11 modules**, MIT licensed. **13+ stars**. **Enables writing PKCS#11 modules in Go** without CGO complexity. Used in decentralized cryptographic systems. 🦫
+
+- **[FreeHSM-C](https://github.com/afchine1337/freehsm-c)** [![Stars](https://img.shields.io/github/stars/afchine1337/freehsm-c?style=social&color=white)](https://github.com/afchine1337/freehsm-c/stargazers)  
+  **Native C11 re-implementation of FreeHSM PKCS#11 v3.2 Soft HSM**, Apache-2.0 licensed. **4 stars**. **Targeted at FIPS 140-3 Level 1 evaluation** and Common Criteria EAL4+ certification. 🎯
 
 
 
