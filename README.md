@@ -115,7 +115,7 @@ The HSM-as-a-Service market is dominated by established hardware security vendor
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[OpenSC](https://github.com/OpenSC/OpenSC)** [![Stars](https://img.shields.io/github/stars/OpenSC/OpenSC?style=social&color=white)](https://github.com/OpenSC/OpenSC/stargazers)  
   **Open source smart card tools and middleware with PKCS#11/MiniDriver support**, LGPL-2.1 licensed. **3,100+ stars**. **The standard middleware for smart cards and hardware tokens** (YubiKey, Nitrokey, PKCS#11 devices). Supports key generation, signing, and verification across Linux, macOS, and Windows. 💳
@@ -246,3 +246,12 @@ If you find this HSM repository useful, please consider supporting the project:
   <b>Made with ❤️ for security engineers, cryptographers, and open-source HSM advocates.</b>
 
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Hardware-Security-Module-HSM&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Hardware-Security-Module-HSM_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Hardware-Security-Module-HSM_growth.svg">
+  </picture>
+</a>
